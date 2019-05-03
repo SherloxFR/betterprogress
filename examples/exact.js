@@ -6,21 +6,21 @@
  * user to specify an exact progress.
  */
 
-var ProgressBar = require('../');
+var ProgressBar = require('../')
 
 var bar = new ProgressBar('  progress [:bar] :percent :etas', {
-    complete: '='
-  , incomplete: ' '
-  , width: 40
-  , total: 100
-});
+  complete: '=',
+  incomplete: ' ',
+  width: 40,
+  total: 100
+})
 
-var i = 0, steps = [0.1, 0.25, 0.6, 0.8, 0.4, 0.5, 0.6, 0.2, 0.8, 1.0];
+var i = 0; var steps = [0.1, 0.25, 0.6, 0.8, 0.4, 0.5, 0.6, 0.2, 0.8, 1.0];
 
-(function next() {
+(function next () {
   if (i >= steps.length) {
   } else {
-    bar.update(steps[i++]);
-    setTimeout(next, 500);
+    bar.update(steps[i++])
+    setTimeout(next, 500)
   }
-})();
+})()

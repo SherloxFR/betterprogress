@@ -1,9 +1,10 @@
 var ProgressBar = require('../')
-  , bar         = new ProgressBar('  [:bar]', 10);
 
-var id = setInterval(function (){
-  bar.tick();
+var bar = new ProgressBar('  [:bar]', 10)
+
+var id = setInterval(function () {
+  bar.tick()
   if (bar.complete) {
-    clearInterval(id);
+    clearInterval(id)
   }
-}, 100);
+}, 100)

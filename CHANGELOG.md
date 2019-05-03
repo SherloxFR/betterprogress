@@ -1,4 +1,11 @@
 
+3.0.0 / 2019-05-03
+==================
+
+  * Improvement: Detect best display units for ETA & Rate & Elapsed
+  * Improvement: Apply JS Standard Style
+  * Docs: Updated README example with new ETA & Rate & Elapsed notations
+
 2.0.0 / 2017-04-04
 ==================
 
