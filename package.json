@@ -1,10 +1,10 @@
 {
   "name": "betterprogress",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "Flexible ascii progress bar",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SherloxFR/node-progress"
+    "url": "git://github.com/SherloxFR/betterprogress"
   },
   "keywords": [
     "cli",
